@@ -9,7 +9,7 @@ import Cart from './Component/pages/Cart';
 import Footer from './Component/Footer/Footer';
 import men_banner from './Component/assets/MenBanner.jpg'
 import women_banner from './Component/assets/Womenbanner.jpg'
-import kids_banner from './Component/assets/Kidsbanner.jpg'
+import kids_banner from "./Component/assets/kidsbanner.jpg";
 import Navbar from './Component/Navbar/Navbar';
 
 function App() {
