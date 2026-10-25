@@ -1,0 +1,62 @@
+.loginsignup{
+    width: 100%;
+    height: 800px;
+    background-color: #fce3fe;
+    padding-top: 100px ;
+}
+.ls-container{
+    width: 580px;
+    height: auto;
+    background-color: white;
+    margin: auto;
+    padding: 40px 60px;
+}
+.ls-container h1{
+    margin: 20px 0px;
+}
+.ls-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 30px;
+}
+.ls-fields input{
+    height: 62px;
+    width: 100%;
+    padding-left:20px ;
+    border: 1px solid #c9c9c9;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.ls-container button{
+    width: 450px;
+    height: 62px;
+    color: white;
+    background-color: red;
+    margin-top: 30px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;;
+}
+.ls-login{
+    margin-top: 20px;
+    color: #5c5c5c;
+    font-size: 18px;
+    font-weight: 500;
+}
+.ls-login span{
+    color: red;
+    font-weight: 500px;
+}
+.ls-agree{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    gap: 10px;
+    color: #5c5c5c;
+    font-size: 15px;
+    font-weight: 500;
+}

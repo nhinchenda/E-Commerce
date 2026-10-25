@@ -1,0 +1,43 @@
+.hero{
+    height: 100vh;
+    background: linear-gradient(135deg, #F0FDF4 0%, #F0F9FF 50%, #FFF7ED 100%);
+    display: flex;
+}
+.hero-left{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-left: 180px;
+    line-height: 1.1;
+}
+.hero-left h2{
+    Color: red;
+    font-size:50px ;
+    font-weight: 700;
+}
+.hero-left p{
+    Color: black;
+    font-size: 40px ;
+    font-weight: 700;
+}
+.hero-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 60px;
+    background-color: rgb(255, 0, 0);
+    position: relative;
+    top: 30px;
+    border-radius: 10px;
+    font-size: 20px ;
+    color: white;
+    font-weight: 500;
+}
+.hero-right img{
+    width: 600px;
+    position: relative;
+    bottom: 150px;
+}

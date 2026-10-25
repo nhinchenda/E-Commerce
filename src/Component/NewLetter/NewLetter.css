@@ -1,0 +1,56 @@
+.NewLetter{
+    height: 50vh;
+    background: linear-gradient(
+  to bottom,
+  #F0F8FF 0%,
+  #F8FCFF 50%,
+  #FFFFFF 100%
+);
+border-radius: 20px;
+box-shadow: 1px 1px 10px lightgray;
+    width: 85%;
+    margin: auto;
+
+    line-height: 1.8;
+    margin: auto;
+    padding: 60px 0px;
+    
+    
+}
+.NewLetter h1{
+    font-size: 40px;
+    text-align: center;
+    font-weight: 700;
+}
+.NewLetter p{
+    font-size: 15px;
+    text-align: center;
+    font-weight: 400;
+    padding: 0px 140px;
+}
+.IS-btn{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.IS-btn input{
+    width: 400px;
+    height: 50px;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid rgb(232, 232, 232);
+    box-shadow: 1px 1px 10px rgba(186, 223, 246, 0.673);
+}
+.IS-btn button{
+     width: 150px;
+    height: 50px;
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white
+    
+
+}

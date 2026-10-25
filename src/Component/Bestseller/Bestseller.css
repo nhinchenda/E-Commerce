@@ -1,0 +1,41 @@
+.bestseller {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: 800px;
+}
+
+.bestseller h1 {
+    color: black;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.bestseller hr {
+    width: 200px;
+    height: 6px;
+    border-radius: 10px;
+    background-color: black;
+    border: none;
+}
+
+.bs-item {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    width: 90%;
+}
+
+.bs-item img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+.bs-item img:hover {
+    transform: translateY(-10px);
+}
